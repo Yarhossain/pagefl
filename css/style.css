@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+body{
+	    font-family: "Poppins", sans-serif;
+}
+header{
+	 	box-shadow: 7px 0px 5px 3px #506fcc2f;
+	 	background: aliceblue;
+}
+.logo{
+    width: 165px;
+}
+.logo a{}
+.logo a img{}
+.navbar-nav li{
+    padding: 0px 15px;
+}
+.navbar-nav li a{
+    padding: 0px;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #211f1f;
+    transition-duration: 0.2s;
+}
+.navbar-nav li a:hover{
+	color: #5f67ff;
+}
+.search-icon{}
+.search-icon a{
+	padding: 5px 10px;
+	color: #5f67ff;
+	font-size: 18px;
+	margin-right: 15px;
+}
+.nav-btn{}
+.nav-btn .last-nav-item{
+    text-transform: uppercase;
+    background-color: #5f67ff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+.nav-btn .last-nav-item:hover{
+	background-color: aliceblue;
+	color: #5f67ff;
+	border: 1px solid #5f67ff;
+}
+.navbar{
+	padding: 30px 0px;
+}
+.fas {
+    font-weight: 900;
+    border: 1px solid #5f67ff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.parters{}
+.parters h2{
+    color: #ffffff;
+    padding: 20px 100px 20px calc(50% - 550px);
+    margin-top: 70px;
+    display: inline-block;
+    background: #5f67ff;
+    font-size: 45px;
+    margin-left: 0px;
+    font-weight: 700;
+    border-radius: 0px 10px 10px 0px;
+}
+.partner-content{}
+.partner-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #5f67ff;
+    margin: 34px 0px;
+}
+.partner-content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
